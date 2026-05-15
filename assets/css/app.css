@@ -1,0 +1,23 @@
+/*
+----------------------------------------------------
+// Copyright (c) 2026 Globaldata Uruguay
+// Todos los derechos reservados
+// Este software es propiedad confidencial de Globaldata Uruguay
+----------------------------------------------------
+*/
+
+/* Estilos base incluyendo ticket térmico y modo oscuro. */
+body[data-theme="dark"] {
+  background: #121212;
+  color: #eee;
+}
+
+body[data-theme="dark"] .card {
+  background: #1e1e1e;
+  border-color: #333;
+}
+
+@media print {
+  .ticket-58 { width: 58mm; }
+  .ticket-80 { width: 80mm; }
+}

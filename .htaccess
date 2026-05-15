@@ -1,0 +1,10 @@
+# ----------------------------------------------------
+# Copyright (c) 2026 Globaldata Uruguay
+# Todos los derechos reservados
+# Este software es propiedad confidencial de Globaldata Uruguay
+# ----------------------------------------------------
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?path=$1 [QSA,L]
